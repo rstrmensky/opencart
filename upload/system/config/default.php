@@ -1,7 +1,7 @@
 <?php
 // Site
 $_['site_base']            = '';
-$_['site_ssl']             = false;
+$_['site_ssl']             = $_SERVER['HTTPS'];
 
 //Url
 $_['url_autostart']        = true;
