@@ -4,7 +4,7 @@ $_['site_base']        = HTTP_SERVER;
 $_['site_ssl']         = HTTPS_SERVER;
 
 //Url
-$_['url_autostart']    = false;
+$_['url_autostart']    = $_SERVER['HTTPS'];
 
 // Database
 $_['db_autostart']     = true;
